@@ -19,6 +19,6 @@ ldrcount.py- Finds total count whenever person cross the LASER-LDR connection</b
 ultrasonic.py- Returns distance in real-time</br>
 smoke.py- Detects smoke</br>
 
-Read full tutorial here:
+Read full tutorial here:https://vslcreations.blogspot.in/2016/11/hodor-homeoffice-automation-raspberry.html
 </br></br>
 Web Design/UI Credits: https://github.com/reeversedev/H.O.D.O.R
