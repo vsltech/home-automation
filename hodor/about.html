@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>H.O.D.O.R</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+               <!--Navigation header-->
+                 
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" 
+    data-toggle="collapse" data-target="#myNavBar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">H.O.D.O.R</a>
+  </div>
+    <div class="collapse navbar-collapse" id="myNavBar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="text-center"><a href="index.html">Home</a></li>
+        <li class="dropdown text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Automation
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="text-center"><a href="index.php">Living Room</a></li>
+            <li class="text-center"><a href="temperature/temp">Temperature</a></li>
+            <li class="text-center"><a href="soil.php">Plant</a></li>
+            <li class="text-center"><a href="gas.php">Gas</a></li>
+            <li class="text-center"><a href="ldr.php">Security</a></li>
+            <li class="text-center"><a href="/cam/">Capture</a></li>
+          </ul>
+        </li>
+        <li class="text-center">
+          <a href="about.html">About</a>
+        </li>
+        <li class="text-center"><a href="team.html">Team</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+
+<div class="container-fluid">
+  <div class="jumbotron text-center">
+    <h1>H.O.D.O.R</h1>
+     <h2><strong><em>How it all started?</strong></em></h2>
+     <div class="row">
+     <img src="images/hodor.png" class="center-block" width="500" height="300">
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+  <p class="text-center">
+    <strong>H.O.D.O.R is a Home automation project for our 7th semester report submission task. The name H.O.D.O.R has been taken into consideration after us being the die hard fans of <strong><em>Game of Thrones</em></strong>. The name H.O.D.O.R is taken from that famous character of American TV series which states,"Hold the Door!". So from starting with door sensors,it became a journey of IoT(Internet of things) for us.</strong>
+  </p>
+  <h2 class="text-center"><strong>Elements used</strong></h2>
+  <div class="container">
+  <ul>
+    <li><strong>Rasberry pi 3 Model B</strong></li>
+    <li><strong>Pi Camera, Pi NoIR Camera</strong> </li>
+    <li><strong>Relay switch</strong></li>
+    <li><strong>Gas sensor</strong></li>
+    <li><strong>Temprature sensor</strong></li>
+    <li><strong>Soil sensor</strong></li>
+    <li><strong>Ultrasonic sensor</strong></li>
+    <li><strong>Resistors</strong></li>
+    <li><strong>Jumper wires</strong></li>
+    <li><strong>Power supply</strong></li>
+  </ul>
+  </div>
+</div>
+
+<div>
+  <h2 class="text-center"><strong><em>Roles</em></strong></h2>
+  <h3 class="text-center"><strong>Rasberry pi 3 Model B</strong></h3>
+  <div class="row">
+    <img src="images/rasberry.jpg" class="center-block" width="500">
+  </div>
+  <div class="container">
+  <p class="text-center">
+  <strong>
+    The Raspberry Pi 3 is a credit card-sized single-board computer developed in the United Kingdom by the Raspberry Pi Foundation to promote the teaching of basic computer science in schools and developing countries. Raspberry Pi 3 is the third generation Raspberry Pi. It replaced the Raspberry Pi 2 Model B in February 2016. It has:
+    <ul>
+      <li>A 1.2GHz 64-bit quad-core ARMv8 CPU</li>
+      <li>802.11n Wireless LAN</li>
+      <li>Bluetooth 4.1</li>
+      <li>Bluetooth Low Energy (BLE)</li>
+      <li>1GB RAM</li>
+      <li>4 USB ports</li>
+      <li>40 GPIO pins</li>
+      <li>Full HDMI port</li>
+      <li>Ethernet port</li>
+      <li>Combined 3.5mm audio jack and composite video</li>
+      <li>Camera interface (CSI)</li>
+      <li>Display interface (DSI)</li>
+      <li>Micro SD card slot (now push-pull rather than push-push)</li>
+      <li>VideoCore IV 3D graphics core</li>
+
+    </ul>
+  </strong></p>
+  </div>
+</div>
+
+
+<div>
+  <h3 class="text-center"><strong>Pi Camera, Pi NoIR Camera</strong></h3>
+  <div class="row">
+  <img src="images/pi-camera.jpg" class="center-block" width="500">
+  </div>
+  <div class="container">
+    <ul>
+    <strong>
+      <li>Fixed focus lens on-board</li> 
+      <li>8 megapixel native resolution sensor-capable of 3280 x 2464 pixel static images</li> 
+      <li>Supports 1080p30, 720p60 and 640x480p90 video</li>
+      <li>Size 25mm x 23mm x 9mm</li> 
+      <li>Weight just over 3g</li>
+      <li>OpenCV using python and C++ libraries</li>
+      </strong>
+    </ul>
+  </div>
+</div>
+
+
+<div>
+  <h3 class="text-center"><strong>Relay Switch</strong></h3>
+  <div class="row">
+  <img src="images/relay-switch.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>A relay switch may be used to regulate the flow of current between a circuit and device. Relay switches make it the transfer of current safe, particularly if the circuit and the output device are unable to handle a direct electrical connection</strong></p>
+  </div>
+</div>
+
+<div>
+  <h3 class="text-center"><strong>Gas Sensor</strong></h3>
+  <div class="row">
+  <img src="images/gas.png" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>A gas sensor is a device that detects the presence of gases in an area, often as part of a safety system. This type of equipment is used to detect a gas leak or other emissions and can interface with a control system so a process can be automatically shut down. A gas detector can sound an alarm to operators in the area where the leak is occurring, giving them the opportunity to leave. This type of device is important because there are many gases that can be harmful to organic life, such as humans or animals.</strong></p>
+  </div>
+</div>
+
+<div>
+  <h3 class="text-center"><strong>Temprature Sensor</strong></h3>
+  <div class="row">
+  <img src="images/temprature.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>A temperature sensor is a device that gathers data concerning the temperature from a source and converts it to a form that can be understood either by an observer or another device.</strong></p>
+  </div>
+</div>
+
+<div>
+  <h3 class="text-center"><strong>Soil Sensor</strong></h3>
+  <div class="row">
+  <img src="images/soil.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>Soil moisture sensors measure the volumetric water content in soil.</strong></p>
+  </div>
+</div>
+
+<div>
+  <h3 class="text-center"><strong>Ultrasonic Sensor</strong></h3>
+  <div class="row">
+  <img src="images/ultrasonic.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>Ultrasonic sensors emit a sound pulse that reflects off of objects entering the wave field. The reflected sound, or “echo” is then received by the sensor. Detection of the sound generates an output signal for use by an actuator, controller, or computer. The output signal can be analog or digital.</strong></p>
+  </div>
+</div>
+
+<div>
+  <h3 class="text-center"><strong>Resistors</strong></h3>
+  <div class="row">
+  <img src="images/resistor.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element.</strong></p>
+  </div>
+</div>
+
+
+<div>
+  <h3 class="text-center"><strong>Jumper wires</strong></h3>
+  <div class="row">
+  <img src="images/jumper.jpg" class="center-block" width="500">
+  </div>
+  <div class="container text-center">
+    <p><strong>A jumper wire is an electrical wire or group of them in a cable with a connector or pin at each end which is normally used to interconnect the components of a breadboard or other prototype or test circuit, internally or with other equipment or components, without soldering.</strong></p>
+  </div>
+</div>
